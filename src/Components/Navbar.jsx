@@ -3,8 +3,8 @@ import logo from "../assets/images/logo.png";
 function Navbar() {
   return (
     <div className="">
-      <nav class="navbar navbar-expand-lg  fixed-top">
-        <div class="container">
+      <nav className="navbar navbar-expand-lg fixed-top">
+        <div className="container">
           <img src={logo} alt="Logo" width="100" height="50"></img>
           <button
             className="navbar-toggler"
@@ -15,7 +15,7 @@ function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
