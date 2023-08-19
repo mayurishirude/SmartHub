@@ -1,0 +1,15 @@
+.header {
+  position: relative;
+}
+.header img {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+/* navbar Start */
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+}
