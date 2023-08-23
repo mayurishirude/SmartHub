@@ -5,7 +5,13 @@ function Navbar() {
     <div className="">
       <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container">
-          <img src={logo} alt="Logo" width="100" height="50"></img>
+          <img
+            src={logo}
+            alt="Logo"
+            width="100"
+            height="50"
+            className="img-fluid"
+          ></img>
           <button
             className="navbar-toggler"
             type="button"
