@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "service_name": "WEB DEVELOPMENT",
+        "service_type": "Informationtechnology"
+    },
+    {
+        "id": 2,
+        "service_name": "WEB DESIGN",
+        "service_type": "Informationtechnology"
+    },
+    {
+        "id": 3,
+        "service_name": "RESPONSIVE DESGIN",
+        "service_type": "Informationtechnology"
+    },
+    {
+        "id": 4,
+        "service_name": "ANDROID DEVELOPER",
+        "service_type": "Informationtechnology"
+    },
+    {
+        "id": 5,
+        "service_name": "GRAPHIC DESIGNER",
+        "service_type": "Informationtechnology"
+    },
+    {
+        "id": 6,
+        "service_name": "FULL STACK DEVELOPER",
+        "service_type": "Informationtechnology"
+    },
+    {
+        "id": 7,
+        "service_name": "MERN STACK",
+        "service_type": "Informationtechnology"
+    },
+    {
+        "id": 8,
+        "service_name": "PROGRAMMING LANGUAGE",
+        "service_type": "Informationtechnology"
+    },
+    {
+        "id": 9,
+        "service_name": "2D DESIGNING",
+        "service_type": "civil"
+    },
+    {
+        "id": 10,
+        "service_name": "ELECTRICAL LAYOUT",
+        "service_type": "civil"
+    },
+    {
+        "id": 11,
+        "service_name": "PLUMBING LAYOUT",
+        "service_type": "civil"
+    },
+    {
+        "id": 12,
+        "service_name": "3D VISULIZATION",
+        "service_type": "civil"
+    },
+    {
+        "id": 13,
+        "service_name": "3D MODELLING",
+        "service_type": "civil"
+    },
+    {
+        "id": 14,
+        "service_name": "VRAY RENDERING",
+        "service_type": "civil"
+    },
+    {
+        "id": 15,
+        "service_name": "INTERIOR DESIGN",
+        "service_type": "civil"
+    },
+    {
+        "id": 16,
+        "service_name": "LANDSCAPING",
+        "service_type": "civil"
+    },
+    {
+        "id": 17,
+        "service_name": "CONSTRUCTION",
+        "service_type": "civil"
+    },
+    {
+        "id": 18,
+        "service_name": "3D 360* VISULIZATION",
+        "service_type": "civil"
+    }
+]
