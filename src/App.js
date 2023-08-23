@@ -8,14 +8,14 @@ import Services from "./Pages/Services";
 import Teams from "./Pages/Teams";
 function App() {
   return (
-    <>
+    <div className="custom-scrollbar">
       <Navbar />
       <Header />
       <AboutUs />
       <Services />
       <Teams />
       <Footer />
-    </>
+    </div>
   );
 }
 

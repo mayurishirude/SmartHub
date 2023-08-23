@@ -8,8 +8,11 @@ const Services = () => {
 
   return (
     <div className="container "> 
-    <h1>Services</h1>
-
+    <div class="section-title">
+            <h2>Services</h2>
+            <p>Check our Services</p>
+          </div>
+    <div className="d-flex justify-content-center"> 
     <ul className="nav nav-tabs" id="myTabs">
       <li className="nav-item">
         <a
@@ -26,28 +29,48 @@ const Services = () => {
           style={{ backgroundColor: activeTab === 'civil' ? '#ffc451' : '' }} 
           onClick={() => setActiveTab('civil')}
         >
-           CIVIL TECHANOLOGY
+          Civil Technology
         </a>
       </li>
     </ul>
-
+    </div>
     <div className="tab-content">
       <div
         className={`tab-pane fade ${activeTab === 'Informationtechnology' ? 'show active' : ''}`}
         id="it-tab"
       >
-        <ul>
-          {filteredData.map(service => (
-            <li key={service.id}>{service.service_name}</li>
-          ))}
-        </ul>
+         <div className='row'>
+          {
+           filteredData.map((service)=>{
+            return(
+              <div className='col-md-4' key={service.id}>
+              <div className="card" style={{ margin: '10px', backgroundColor: 'lightgray' }}>
+              <div className="card-body">
+                {service.service_name}
+              </div>
+            </div>
+        </div>
+            )
+           })
+          }
+        </div>
       </div>
       <div className={`tab-pane fade ${activeTab === 'civil' ? 'show active' : ''}`} id="civil-tab">
-        <ul>
-          {filteredData.map(service => (
-            <li key={service.id}>{service.service_name}</li>
-          ))}
-        </ul>
+      <div className='row'>
+          {
+           filteredData.map((service)=>{
+            return(
+              <div className='col-md-4' key={service.id}>
+              <div className="card" style={{ margin: '10px', backgroundColor: 'lightgray' }}>
+              <div className="card-body">
+                {service.service_name}
+              </div>
+            </div>
+        </div>
+            )
+           })
+          }
+        </div>
       </div>
     </div>
   </div>
@@ -55,3 +78,6 @@ const Services = () => {
 };
 
 export default Services;
+<div>
+  
+</div>
