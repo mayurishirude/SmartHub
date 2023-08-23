@@ -1,9 +1,23 @@
+import React, { useState } from "react";
 import logo from "../assets/images/logo.png";
+import Header from "./Header";
 
 function Navbar() {
+  const [navbar,setNavbar]=useState(false);
+
+  const changeBackground=()=>{
+      if(window.scrollY >= 60){
+          setNavbar(true)
+      }else{
+          setNavbar(false);
+      }
+  };
+  window.addEventListener('scroll',changeBackground)
   return (
-    <div className="">
-      <nav className="navbar navbar-expand-lg fixed-top">
+    <>
+    <Header />
+      {/* <nav className="navbar navbar-expand-lg fixed-top active"> */}
+      <nav className={navbar ? "navbar navbar-expand-lg navbar-light bg-light fixed-top bg-transparent active " : "navbar navbar-expand-lg navbar-light bg-light fixed-top bg-transparent "}>
         <div className="container">
           <img
             src={logo}
@@ -26,7 +40,7 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <a className="nav-link" aria-current="page" href="/">
                   Home
                 </a>
               </li>
@@ -54,7 +68,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
-    </div>
+      </>
   );
 }
 

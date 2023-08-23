@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="custom-scrollbar">
       <Navbar />
-      <Header />
+      {/* <Header /> */}
       <AboutUs />
       <Services />
       <Teams />

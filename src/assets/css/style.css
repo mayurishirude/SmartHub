@@ -24,6 +24,10 @@ section {
   color: #fff !important;
 }
 
+.navbar.active{
+  color: black!important;
+background-color: black!important; 
+}
 /* navbar End */
 
 /* About Us Start*/
