@@ -1,3 +1,9 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
 section {
   padding: 40px 0;
   overflow: hidden;
@@ -18,6 +24,11 @@ section {
   color: #fff !important;
 }
 
+
+.navbar.active{
+  color: black!important;
+background-color: black!important; 
+}
 /* navbar End */
 
 /* About Us Start*/
@@ -64,7 +75,8 @@ section {
 }
 
 .vision {
-  padding-top: 20px;
+  margin-top: 20px;
+padding-top: 20px;
 }
 
 .vision .icon-box {
@@ -128,6 +140,9 @@ section {
 .team {
   background: #fff;
   padding: 20px 0;
+
+  margin-top: 80px;
+
 }
 
 .team .member {
@@ -209,6 +224,23 @@ section {
 }
 
 /* Team End */
+
+
+/* Services Start */
+.nav-tabs{
+  border-bottom: none !important;
+  cursor: pointer;
+}
+.tab-content{
+  margin-top: 20px;
+}
+.card{
+  background-color: white !important;
+}
+
+/* Services End */
+
+
 /* Footer Start */
 
 #footer {
