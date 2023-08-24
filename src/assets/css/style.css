@@ -1,8 +1,8 @@
+
 *{
   padding: 0;
   margin: 0;
 }
-
 
 section {
   padding: 40px 0;
@@ -23,6 +23,7 @@ section {
 .navbar-nav .nav-link {
   color: #fff !important;
 }
+
 
 .navbar.active{
   color: black!important;
@@ -75,7 +76,7 @@ background-color: black!important;
 
 .vision {
   margin-top: 20px;
-  padding-top: 20px;
+padding-top: 20px;
 }
 
 .vision .icon-box {
@@ -139,7 +140,9 @@ background-color: black!important;
 .team {
   background: #fff;
   padding: 20px 0;
+
   margin-top: 80px;
+
 }
 
 .team .member {
@@ -222,6 +225,7 @@ background-color: black!important;
 
 /* Team End */
 
+
 /* Services Start */
 .nav-tabs{
   border-bottom: none !important;
@@ -235,9 +239,6 @@ background-color: black!important;
 }
 
 /* Services End */
-
-
-
 
 
 /* Footer Start */
