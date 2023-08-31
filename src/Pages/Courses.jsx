@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import Data from "../Data.json";
-const Services = () => {
+
+function Courses() {
   const [activeTab, setActiveTab] = useState("Informationtechnology");
 
   const filteredData = Data.filter((item) => item.service_type === activeTab);
-
   return (
-    <section id="service" className="service">
+    <section id="course" className="course">
       <div className="container ">
-        <div class="section-title">
-          <h2>Services</h2>
-          <p>Check our Services</p>
+        <div className="section-title">
+          <h2>Courses</h2>
+          <p>Check our Courses</p>
         </div>
         <div className="d-flex justify-content-center">
           <ul className="nav nav-tabs" id="myTabs">
@@ -56,7 +56,10 @@ const Services = () => {
                       className="card"
                       style={{ margin: "10px", backgroundColor: "lightgray" }}
                     >
-                      <div className="card-body">{service.service_name}</div>
+                      <div className="card-body">
+                        {service.service_name}
+                        <p className="card-text">{service.service_name}</p>
+                      </div>
                     </div>
                   </div>
                 );
@@ -77,7 +80,10 @@ const Services = () => {
                       className="card"
                       style={{ margin: "10px", backgroundColor: "lightgray" }}
                     >
-                      <div className="card-body">{service.service_name}</div>
+                      <div className="card-body">
+                        {service.service_name}
+                        <p className="card-text">{service.service_name}</p>
+                      </div>
                     </div>
                   </div>
                 );
@@ -88,6 +94,6 @@ const Services = () => {
       </div>
     </section>
   );
-};
+}
 
-export default Services;
+export default Courses;
