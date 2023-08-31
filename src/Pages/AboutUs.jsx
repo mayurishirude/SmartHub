@@ -1,6 +1,7 @@
 import React from "react";
 import Aboutimg from "../assets/images/about.jpg";
 import visionimg from "../assets/images/portfolio-7.jpg";
+
 const AboutUs = () => {
   return (
     <>
@@ -38,11 +39,11 @@ const AboutUs = () => {
                 just ask your question and we'll be right near you. We are nine
                 steps towards you; you just need to take a single and right step
                 to join us. Then, what are you waiting for! Make Your Own
-                S.M.A.R.T. Move
+                S.M.A.R.T. Move.
               </p>
             </div>
           </div>
-          <section id="vision" class="vision">
+          <div id="vision" className="vision">
             <div className="row">
               <div className="section-title">
                 <h2>Vision & Mission</h2>
@@ -120,7 +121,7 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </div>
         </div>
       </section>
     </>
