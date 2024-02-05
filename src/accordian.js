@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet, StatusBar } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
 
 const App = () => {
@@ -15,8 +15,10 @@ const App = () => {
   };
 
   return (
-    <View style={styles.container}>
-
+    <> 
+     <StatusBar backgroundColor="#61dafb" />
+       <View style={styles.container}>
+      
       <TouchableOpacity onPress={togglePublic} style={styles.card}>
         <Text style={styles.cardHeader}>
           Public
@@ -48,6 +50,7 @@ const App = () => {
         </View>
       )}
     </View>
+    </>
   );
 };
 
